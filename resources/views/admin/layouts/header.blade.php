@@ -6,6 +6,11 @@
             <ul class="nav navbar-nav d-xl-none">
                 <li class="nav-item"><a class="nav-link menu-toggle" href="#"><i class="ficon" data-feather="menu"></i></a></li>
             </ul>
+
+            <ul class="nav navbar-nav">
+                <li class="fw-bolder"><i class="fa fa-calendar"></i> تاریخ : {{ jDate(now())->format('Y/m/d') }}</li>
+            </ul>
+
         </div>
         <ul class="nav navbar-nav align-items-center ms-auto">
 
