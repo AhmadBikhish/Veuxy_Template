@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="loading dark-layout" lang="en" data-layout="dark-layout" data-textdirection="rtl">
+<html class="loading light-layout" lang="en" data-layout="dark-layout" data-textdirection="rtl">
 
 @include('admin.layouts.head-tag')
 
