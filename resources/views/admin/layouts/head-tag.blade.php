@@ -12,10 +12,9 @@
 
     <!-- Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/app-assets/vendors/css/vendors-rtl.min.css') }}">
-    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/app-assets/vendors/css/charts/apexcharts.css') }}"> --}}
-    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/app-assets/vendors/css/extensions/toastr.min.css') }}"> --}}
+    @yield('vendor-css')
 
-    <!-- Vendor CSS-->
+    <!-- Theme CSS-->
     <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/app-assets/css-rtl/bootstrap.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/app-assets/css-rtl/bootstrap-extended.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/app-assets/css-rtl/colors.css') }}">
@@ -23,11 +22,9 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/app-assets/css-rtl/themes/dark-layout.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/app-assets/css-rtl/themes/bordered-layout.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/app-assets/css-rtl/themes/semi-dark-layout.css') }}">
-    @yield('vendor-css')
 
     <!-- Page CSS-->
     <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/app-assets/css-rtl/core/menu/menu-types/vertical-menu.css') }}">
-    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/app-assets/css-rtl/pages/dashboard-ecommerce.css') }}"> --}}
     @yield('page-css')
 
     <!-- Custom CSS-->
