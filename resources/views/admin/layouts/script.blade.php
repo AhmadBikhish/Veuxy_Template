@@ -1,5 +1,6 @@
 <!-- Vendor JS-->
 <script src="{{ asset('admin-assets/app-assets/vendors/js/vendors.min.js') }}"></script>
+<script src="{{ asset('admin-assets/app-assets/js/core/custom.js') }}"></script>
 @yield('vendor-js')
 
 <!-- Theme JS-->
